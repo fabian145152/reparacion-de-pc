@@ -1,0 +1,32 @@
+subir todo a github
+git init
+git add . 
+git commit -m "TEXTO OBLIGATORIO"
+git push
+
+git clone    descarga del repositorio remoto a esta pc
+git clone http://copio la url del repo de github
+
+git branch   para trabajar ramas, pueden trabajar varioos y hacer y deshacer.
+git branch nombre de la rama
+
+traer todo de github
+
+git init
+git add . 
+git commit -m "texto"
+git pull
+
+git clone    descarga del repositorio remoto a esta pc
+git clone http://copio la url del repo de github
+
+git branch   para trabajar ramas, pueden trabajar varioos y hacer y deshacer.
+git branch nombre de la rama
+
+echo "crear un repositorio nuevos" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/fabian145152/reparacion-de-pc.git
+git push -u origin main
